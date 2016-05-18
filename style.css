@@ -1,0 +1,113 @@
+html, body{
+    background-color: #FFFF33;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.heading{
+    width: 100%;
+    height: 10%;
+    border: 0;
+    background-color: #3300CC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Georgia";
+}
+table {
+    padding: 0;
+}
+td {
+    padding: 0;
+}
+td.logo{
+    font-size: 40px;
+    width: 36%;
+    text-align: center;
+    color: #ffffff;
+}
+td.profile, td.project, td.match, td.search{
+    width: 15%;
+}
+a:link {
+    color: #FFFF33;
+}
+a:visited {
+    color: #FFFF33;
+}
+a:hover {
+    color: #ffffff;
+}
+.content{
+    background-color: #3300CC;
+    padding: 0;
+    margin: 0;
+    font-family: "Georgia";
+    color: #FFFF33;
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+}
+.sidebar{
+    font-family: "Georgia";
+    text-align: center;
+    float: left;
+    width: 16%;
+    height: 90%;
+    padding: 0;
+    background-color: #3300CC;
+}
+.content_main{
+    width: 84%;
+    float: left;
+}
+section.login, section.register, section.project, section.matches{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+table.friends, table.requests, table.search{
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+}
+.messages{
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+    padding-bottom: 0;
+}
+#post{
+    width: 50%;
+    height: 150px;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Georgia";
+}
+.status{
+    padding-bottom: 10px;
+}
+table.message{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.content_title{
+    text-align: center;
+}
+.button {
+    background-color: #3300CC;
+    border: 0;
+    font-family: "Georgia";
+    text-decoration: underline;
+    color: #FFFF33;
+    font-size: 20px;
+}
+.button:hover {
+    color: #ffffff;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+}
